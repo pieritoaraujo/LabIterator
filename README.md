@@ -24,40 +24,40 @@ Osea, dentro de cada categoria utilice un ArrayList para almacenar las peliculas
 La clase PeliculaIterator utiliza una estructura Stack para recorrer el arbol y visitar las categorias durante la iteracion.
 
 ### Iterator
-#### hasNext()
-#### next()
+#### - hasNext()
+#### - next()
 
 ### Agregado
-#### createIterator()
+#### - createIterator()
 
 ### Clases
 #### Pelicula
 Atributos:
-#### titulo
-#### genero
-#### ranking
+#### - titulo
+#### - genero
+#### - ranking
 
 #### NodoCategoria
 Atributos:
-#### categoria
-#### peliculas
-#### izquierda
-#### derecha
+#### - categoria
+#### - peliculas
+#### - izquierda
+#### - derecha
 
 #### Catalogo
 Esto es implementada por la interfaz Agregado
 Además, es responsable de
-#### Construir el arbol de categorias
-#### Almacenar las peliculas
-#### Crear el iterator
+#### - Construir el arbol de categorias
+#### - Almacenar las peliculas
+#### - Crear el iterator
 
 #### PeliculaIterator
 Implementa la interfaz Iterator
 
 Responsable de:
-#### Recorrer las peliculas almacenadas en el arbol
-#### Gestionar la posición actual del recorrido
-#### Retornar cada película de forma secuencial
+#### - Recorrer las peliculas almacenadas en el arbol
+#### - Gestionar la posición actual del recorrido
+#### - Retornar cada película de forma secuencial
 
 #### Main
 Aquí es donde se encarga de ejecutar el sistema y mostrar los resultados
